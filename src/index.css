@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas,
     'Courier New', monospace;
 }
+
+
+.footer-links h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    display: block;
+    text-decoration: none;
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #387ed1;
+}
+
+
+.footer-bottom-links a {
+    color: #9b9b9b;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 12px 12px;
+}
+
+.footer-bottom-links a:hover {
+    color: #387ed1;
+}
+
+.footer-bottom-links p {
+    color: #9b9b9b;
+    font-size: 12px;
+}
