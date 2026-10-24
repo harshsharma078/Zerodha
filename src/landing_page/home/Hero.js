@@ -1,8 +1,32 @@
 import React from 'react';
 
 function Hero() {
-    return ( 
-        <h1>Hero</h1>
+    return (
+        <div className="container text-center mb-5      ">
+            <div className="row">
+                <div className="col">
+                    <img
+                        src="/media/images/homeHero.png"
+                        alt="Home Hero"
+                        className="img-fluid mb-5"
+                    />
+
+                    <h1 className="mt-5">Invest in everything</h1>
+
+                    <p>
+                        Online platform to invest in stocks, derivatives,
+                        mutual funds, and more
+                    </p>
+
+                    <button
+                        className="p-2 btn btn-primary"
+                        style={{ width: "20%" }}
+                    >
+                        Signup Now
+                    </button>
+                </div>
+            </div>
+        </div>
     );
 }
 
