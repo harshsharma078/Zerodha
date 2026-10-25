@@ -1,4 +1,6 @@
+
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -8,15 +10,14 @@ function Navbar() {
         >
             <div className="container">
                 {/* Logo */}
-                <a className="navbar-brand" href="#">
+                <Link className="navbar-brand" to="/">
                     <img
                         src="/media/images/logo.svg"
                         alt="Zerodha"
                         style={{ width: "130px" }}
                     />
-                </a>
+                </Link>
 
-                {/* Mobile toggle */}
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -33,35 +34,34 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarMenu">
                     <ul className="navbar-nav ml-auto align-items-lg-center">
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">
+                            <Link className="nav-link active" to="/signup">
                                 Signup
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">
+                            <Link className="nav-link active" to="/about">
                                 About
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">
+                            <Link className="nav-link active" to="/products">
                                 Products
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">
+                            <Link className="nav-link active" to="/pricing">
                                 Pricing
-                            </a>
+                            </Link>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link active" href="#">
+                            <Link className="nav-link active" to="/support">
                                 Support
-                            </a>
+                            </Link>
                         </li>
-                         
                     </ul>
                 </div>
             </div>

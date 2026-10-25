@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ProductPage from "./landing_page/products/ProductPage";
 
 function App() {
   return (
