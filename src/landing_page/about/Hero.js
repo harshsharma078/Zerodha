@@ -4,7 +4,7 @@ import React from "react";
 function Hero() {
     return (
         <div className="container">
-            {/* Heading */}
+   
             <div className="row py-5 my-4">
                 <div className="col-12 text-center">
                     <h1
@@ -21,7 +21,7 @@ function Hero() {
                 </div>
             </div>
 
-            {/* Description */}
+   
             <div className="border-top pt-5 mt-3">
                 <div
                     className="row text-muted mx-auto"

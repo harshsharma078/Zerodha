@@ -30,34 +30,34 @@ function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                {/* Navigation links */}
+
                 <div className="collapse navbar-collapse" id="navbarMenu">
                     <ul className="navbar-nav ml-auto align-items-lg-center">
-                        <li className="nav-item">
+                        <li className="nav-item mr-3">
                             <Link className="nav-link active" to="/signup">
                                 Signup
                             </Link>
                         </li>
 
-                        <li className="nav-item">
+                        <li className="nav-item mr-3">
                             <Link className="nav-link active" to="/about">
                                 About
                             </Link>
                         </li>
 
-                        <li className="nav-item">
+                        <li className="nav-item mr-3">
                             <Link className="nav-link active" to="/products">
                                 Products
                             </Link>
                         </li>
 
-                        <li className="nav-item">
+                        <li className="nav-item mr-3">
                             <Link className="nav-link active" to="/pricing">
                                 Pricing
                             </Link>
                         </li>
 
-                        <li className="nav-item">
+                        <li className="nav-item mr-3">
                             <Link className="nav-link active" to="/support">
                                 Support
                             </Link>

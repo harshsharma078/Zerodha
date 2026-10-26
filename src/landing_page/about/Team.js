@@ -4,7 +4,7 @@ import React from "react";
 function Team() {
     return (
         <div className="container ">
-            {/* Heading */}
+
             <div className="row py-4 mt-3">
                 <div className="col-12 text-center">
                     <h1
@@ -16,7 +16,6 @@ function Team() {
                 </div>
             </div>
 
-            {/* Team section */}
             <div
                 className="row mx-auto text-muted py-4"
                 style={{
@@ -25,7 +24,7 @@ function Team() {
                     lineHeight: "1.8"
                 }}
             >
-                {/* Left side: image and details */}
+
                 <div className="col-md-4 text-center mb-4">
                     <img
                         src="/media/images/nithinkamath.jpg"
