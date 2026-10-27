@@ -6,7 +6,6 @@ function Footer() {
         <div className="container  mt-5">
             <div className="row mt-5">
 
-                {/* Logo */}
                 <div className="col-12 col-md-3 mb-4">
                     <img
                         src="/media/images/logo.svg"
@@ -16,8 +15,6 @@ function Footer() {
                     <p>&copy; 2010 - 2026, Zerodha Broking Ltd. All rights reserved.</p>
                 </div>
 
-                
-{/* Company */}
 <div className="col-12 col-sm-6 col-md-3 mb-4 footer-links">
     <h5>Company</h5>
     <a href="https://zerodha.com/about/">About</a>
@@ -30,7 +27,6 @@ function Footer() {
     <a href="https://zerodha.com/referral/">Referral program</a>
 </div>
 
-{/* Support */}
 <div className="col-12 col-sm-6 col-md-3 mb-4 footer-links">
     <h5>Support</h5>
     <a href="https://support.zerodha.com/">Support portal</a>
@@ -42,7 +38,6 @@ function Footer() {
     <a href="https://zerodha.com/">Downloads</a>
 </div>
 
-{/* Account */}
 <div className="col-12 col-sm-6 col-md-3 mb-4 footer-links">
     <h5>Account</h5>
     <a href="https://zerodha.com/open-account/">Open demat account</a>

@@ -5,7 +5,6 @@ function Education() {
         <div className="container mt-5 py-5">
             <div className="row align-items-center">
 
-                {/* Left Section */}
                 <div className="col-12 col-md-6 mb-4 mb-md-0">
                     <img
                         src="media\images\education.svg"
@@ -14,7 +13,6 @@ function Education() {
                     />
                 </div>
 
-                {/* Right Section */}
                 <div className="col-12 col-md-6 px-md-5">
                     <h2 className="mb-4">
                         Free and open market education
