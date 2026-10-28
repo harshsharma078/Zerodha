@@ -10,9 +10,7 @@ function Pricing() {
                         Unbeatable pricing
                     </h3>
                     <p className="text-muted mb-3">
-                        We pioneered the concept of discount broking and
-                        price transparency in India. Flat fees and no
-                        hidden charges.
+                        We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.
                     </p>
                     <a href="#" style={{ textDecoration: "none" }}>
                         See pricing{' '}
