@@ -3,8 +3,8 @@ import React from "react";
 
 function Hero() {
     return (
-        <div className="container">
-            <div className="text-center mt-5">
+        <div className="container border-bottom mt-5">
+            <div className="text-center mt-5 p-5">
                 <h1 style={{ fontSize: "26px", fontWeight: "400" }}>
                     Zerodha Products
                 </h1>
