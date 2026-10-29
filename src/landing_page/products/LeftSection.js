@@ -1,6 +1,14 @@
 import React from 'react';
 
-function LeftSection({ imageURL, productName, productDescription, tryDemo, learnMore, googlePlay, appStore }) {
+function LeftSection({ 
+    imageURL,
+    productName, 
+    productDescription, 
+    tryDemo, 
+    learnMore, 
+    googlePlay, 
+    appStore 
+}) {
     return (
         <div className='container p-5'>
             <div className='row align-items-center'>
